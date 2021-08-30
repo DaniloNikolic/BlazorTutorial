@@ -53,7 +53,7 @@ namespace EmployeeManagement.Api.Models
                 DateOfBrith = new DateTime(1981, 12, 22),
                 Gender = Gender.Male,
                 DepartmentId = 2,
-                PhotoPath = "images/mika.jpg"
+                PhotoPath = "images/mika.png"
             });
 
             modelBuilder.Entity<Employee>().HasData(new Employee
